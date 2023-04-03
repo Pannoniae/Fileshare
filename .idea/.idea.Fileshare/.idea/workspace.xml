@@ -4,16 +4,38 @@
     <projectFile profileName="IIS Express">Fileshare.csproj</projectFile>
     <projectFile profileName="http">Fileshare.csproj</projectFile>
     <projectFile profileName="https">Fileshare.csproj</projectFile>
+    <projectFile pubXmlPath="Properties/PublishProfiles/IISProfile.pubxml">Fileshare.csproj</projectFile>
+    <projectFile pubXmlPath="Properties/PublishProfiles/Publish.pubxml">Fileshare.csproj</projectFile>
+    <projectFile pubXmlPath="Properties/PublishProfiles/Publish2.pubxml">Fileshare.csproj</projectFile>
+    <projectFile pubXmlPath="Properties/PublishProfiles/Test.pubxml">Fileshare.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a2a8e3-ee5f-4749-8038-57ebb2099ad3" name="Changes" comment="add readme">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="26a2a8e3-ee5f-4749-8038-57ebb2099ad3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fileshare/.idea/riderPublish.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fileshare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fileshare/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kudu" />
+        <option value="MsDeploy.Local" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3a1cdd6f5720cf36ceab85555317e2ed3e9876710af968575b24af199deb0/HttpsRedirectionBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4916d3599f29b249967c768ee4292b529b76f7285f1535baa99792cf3ed26f/HostEnvironmentEnvExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b37bdcda3df384671c8eed0dd528e74eff6e04eeb7b1e81f219e5e066318/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -25,24 +47,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\prisz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\prisz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\prisz\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\prisz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\prisz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\prisz\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Fileshare: IIS Express">
+}</component>
+  <component name="RunManager" selected="Publish to IIS.Publish IIS">
+    <configuration name="Publish" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="Release" delete_existing_files="true" platform="Any CPU" runtime="win-x64" target_folder="$PROJECT_DIR$/../Fileshare_prod" target_framework="net7.0" uuid_high="5348367457226409127" uuid_low="-5426374570692815034" />
+      <method v="2">
+        <option name="Build Solution" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fileshare: IISProfile" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="IISProfile.pubxml" pubxml_path="$PROJECT_DIR$/Properties/PublishProfiles/IISProfile.pubxml" uuid_high="5348367457226409127" uuid_low="-5426374570692815034" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish IIS" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="Publish.pubxml" uuid_high="5348367457226409127" uuid_low="-5426374570692815034" />
+      <method v="2">
+        <option name="Build Solution" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fileshare: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Fileshare.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -71,6 +109,7 @@
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
         <option name="Build" />
+        <option name="Publish Solution" enabled="true" />
       </method>
     </configuration>
     <configuration name="Fileshare: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -88,6 +127,14 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Fileshare: http" />
+      <item itemvalue=".NET Launch Settings Profile.Fileshare: https" />
+      <item itemvalue=".NET Launch Settings Profile.Fileshare: IIS Express" />
+      <item itemvalue="Publish to folder.Publish" />
+      <item itemvalue="Publish to IIS.Fileshare: IISProfile" />
+      <item itemvalue="Publish to IIS.Publish IIS" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +144,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680479003633</updated>
-      <workItem from="1680479004789" duration="393000" />
+      <workItem from="1680479004789" duration="497000" />
+      <workItem from="1680479515262" duration="422000" />
+      <workItem from="1680479986534" duration="215000" />
+      <workItem from="1680480222497" duration="3294000" />
     </task>
     <task id="LOCAL-00001" summary="- first commit">
       <created>1680479092124</created>
@@ -120,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680479147762</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- exclude stupid sonarlint files">
+      <created>1680479415721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680479415721</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +190,7 @@
     <MESSAGE value="- first commit" />
     <MESSAGE value="- add workspace" />
     <MESSAGE value="add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
+    <MESSAGE value="- exclude stupid sonarlint files" />
+    <option name="LAST_COMMIT_MESSAGE" value="- exclude stupid sonarlint files" />
   </component>
 </project>
