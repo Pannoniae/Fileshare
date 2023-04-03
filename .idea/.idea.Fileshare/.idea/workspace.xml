@@ -10,11 +10,10 @@
     <projectFile pubXmlPath="Properties/PublishProfiles/Test.pubxml">Fileshare.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a2a8e3-ee5f-4749-8038-57ebb2099ad3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fileshare/.idea/riderPublish.xml" afterDir="false" />
+    <list default="true" id="26a2a8e3-ee5f-4749-8038-57ebb2099ad3" name="Changes" comment="test commit!">
+      <change afterPath="$PROJECT_DIR$/app_offline.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fileshare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fileshare/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/SourceGeneratedDocuments/40ED81FC60759927841F384A/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/_Imports_razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3a1cdd6f5720cf36ceab85555317e2ed3e9876710af968575b24af199deb0/HttpsRedirectionBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4916d3599f29b249967c768ee4292b529b76f7285f1535baa99792cf3ed26f/HostEnvironmentEnvExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b37bdcda3df384671c8eed0dd528e74eff6e04eeb7b1e81f219e5e066318/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
@@ -76,10 +76,8 @@
       <method v="2" />
     </configuration>
     <configuration name="Publish IIS" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
-      <riderPublish configuration="Release" platform="Any CPU" publish_profile="Publish.pubxml" uuid_high="5348367457226409127" uuid_low="-5426374570692815034" />
-      <method v="2">
-        <option name="Build Solution" enabled="true" />
-      </method>
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="IISProfile.pubxml" uuid_high="5348367457226409127" uuid_low="-5426374570692815034" />
+      <method v="2" />
     </configuration>
     <configuration name="Fileshare: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Fileshare.csproj" />
@@ -147,7 +145,7 @@
       <workItem from="1680479004789" duration="497000" />
       <workItem from="1680479515262" duration="422000" />
       <workItem from="1680479986534" duration="215000" />
-      <workItem from="1680480222497" duration="3294000" />
+      <workItem from="1680480222497" duration="5005000" />
     </task>
     <task id="LOCAL-00001" summary="- first commit">
       <created>1680479092124</created>
@@ -177,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680479415721</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test commit!">
+      <created>1680484029564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680484029564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +196,7 @@
     <MESSAGE value="- add workspace" />
     <MESSAGE value="add readme" />
     <MESSAGE value="- exclude stupid sonarlint files" />
-    <option name="LAST_COMMIT_MESSAGE" value="- exclude stupid sonarlint files" />
+    <MESSAGE value="test commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit!" />
   </component>
 </project>
