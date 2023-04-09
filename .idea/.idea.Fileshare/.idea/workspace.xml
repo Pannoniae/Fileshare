@@ -9,11 +9,16 @@
     <projectFile pubXmlPath="Properties/PublishProfiles/Publish2.pubxml">Fileshare.csproj</projectFile>
     <projectFile pubXmlPath="Properties/PublishProfiles/Test.pubxml">Fileshare.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a2a8e3-ee5f-4749-8038-57ebb2099ad3" name="Changes" comment="test commit!">
-      <change afterPath="$PROJECT_DIR$/app_offline.htm" afterDir="false" />
+    <list default="true" id="26a2a8e3-ee5f-4749-8038-57ebb2099ad3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Pages/Files.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fileshare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fileshare/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fileshare.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Fileshare.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Error.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Error.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +38,46 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Temp/SourceGeneratedDocuments/40ED81FC60759927841F384A/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/_Imports_razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3a1cdd6f5720cf36ceab85555317e2ed3e9876710af968575b24af199deb0/HttpsRedirectionBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0cc712b3c51188485dd52dac67e1d13a879a12ad92b1ea0f28e9cc4a03393a/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/108949943f46f2f8e775ff7994bec38aee794f99d35586b66b61c5698e2ace7/HtmlDirectoryFormatter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f1bbedae7daa8f5f37fdaab9c9d114362748372359a82d6cde945de8823/EndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2048d5b61a78bef52894eecf448e34a883cb22e1abb6711e0eb6d690a3b0/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/23cd26d8682234e35fede0b4dc78359fe232639e6459a41a45d9ab9ea205/FileServerOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2475e96bc03428fee7ae9571816bb2d839413aef6f79266cc34d88cefb9/IDirectoryFormatter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2ab88cee2393fe2bb369cb3e7833d762926fe35924d6927e18464ab3649607f/CompositeFileProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2bb41af4c474928e1d7acc9395ca33637615b36f1917ec2e3bfbf5665db21d/DirectoryBrowserExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/369af47280ef878b7bceaaf01a4a34b6d82577f781769bcd575ea2769a387/HttpsCompressionMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3a292cc81a2b4553180e4f510352d98e0e43799dabc5356deca945c9c91652/RequestDelegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3bd14eb0aff9eef09c97aab46a4e2efb4447d1d32344eb947ffac2f9ab8/WebHostBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/46f962e97f83bda53b6ece72d9444e29b280be4cb4cd461249f818e592f/DirectoryBrowserOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/472af86e38f6ea1e687c5a816a960b16740a6dcf3e05fa1e822f38ef8d7166/DirectoryBrowserServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4916d3599f29b249967c768ee4292b529b76f7285f1535baa99792cf3ed26f/HostEnvironmentEnvExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b37bdcda3df384671c8eed0dd528e74eff6e04eeb7b1e81f219e5e066318/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4bb4bf5b95d5eaa265462e17e2c9aaf251774b42e7908caae977d7bc461e/PageActionEndpointDataSourceFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/50e3116f13f93b464e3a3ef6748873c99e40401ec595924a31b82de85e79b/StaticFileOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/615b17487aa52b41c9f69bdc3e33d47a32cdffa4b9534d5c4729b7ced8dcd8c/RemoteNavigationInterception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/661861d2f496c2dbfec4ea5554546fc42e67528c7f93c28d0c05b814a7991/PhysicalFileProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/70917e6ce4d2cdaeb456ea339a193e6afa39239323995326fa289a4606c3ce3/IDirectoryContents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/72dfdb331ca0a562aa68c0201fc29f66c46dc1504393c91b95d7025c7a1fa66/StaticFileExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ac6b1702a8753d84bf21b74768a5fee251d05e368f915c89bca081e83cf3/IFileProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7cc86d38a2961e3e9471ec6744b176e2e63f5878a199b8c879119306a3357d4/PhysicalDirectoryContents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/82cad5e727ee37bb10dddba7b4e5e8ef88258c593a7d7229e518c6d4428bc171/Options.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8321762a10b22e6b35b5d7325c1556825311f21544ee6c7fbe5b8fb1f58779d/INavigationInterception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8a28b64793aa43871e2790ab9171121459484d2844adee73281583a9f20e4a5/FallbackEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8db7c1472b3fe1b115eceec1d9e8ab2d1f1d94a2aeb4419b4ec2e1290a6a3/RazorPagesEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/98cd87bb3eb7b0c5e7a44be44a9297aca728ee36aa574444f5fee9f36f28a/CompositeDirectoryContents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9962fb6b97eb70712f6e18274e103f8c352d3ec5e157db1f9513d737b7d505f/SharedOptionsBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9cb69f288de4bd921c32f45ec13452db54367d01d259b7fa633b1dc0e39cc1/HeadOutlet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a331b5583329ac6fe3e572d3efc9c56ce66ccea5b5fc1e164fc3dcae3b58e/Router.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aa2a736f438d8a88f89963179ce1f2f416b7eb8fe7518792ff18bff1908290fe/PageActionEndpointDataSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ac5d614c8af82edcef1b5d1849b2b79f6e68c43818a3a041c034ad259011acf2/RenderFragment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bb16e957bbcd5f9eaadaee14e66eb813af684cbdbb50c2e5d8eb662fdbdea6/IWebHostEnvironment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bc85a6fde42178b3a9acfae7ae0b764d69515189796a51528ef8fe7b6911ad/ComponentEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e82c31553f970d1f9d4d7368d33d9bc57db79854fb8583c1dcb5559eb3d2/DirectoryBrowserMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eb0ffb1b11c473e5aba10dd2a4a182d25132feb45414830ecd61ec399efe9b/FileServerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/efd8427e6f567b8747a3e6d84c81ae4b894524f0b95d36ff7c6e71b6d4c21/UseMiddlewareExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f287e414ccbb64572b122ac5cc177bb52953817883c652748513cdd361a6c51/StringSyntaxAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fd5a356c7f32e834434881ace0d8f16010b5ad711e13ca545a0cfa5818/ComponentServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wwwroot/css/bootstrap/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,13 +95,19 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\prisz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\prisz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\prisz\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\prisz\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
       &quot;C:\\Users\\prisz\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
@@ -145,7 +193,10 @@
       <workItem from="1680479004789" duration="497000" />
       <workItem from="1680479515262" duration="422000" />
       <workItem from="1680479986534" duration="215000" />
-      <workItem from="1680480222497" duration="5005000" />
+      <workItem from="1680480222497" duration="5018000" />
+      <workItem from="1680486093012" duration="2766000" />
+      <workItem from="1680908429105" duration="11087000" />
+      <workItem from="1681056621686" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="- first commit">
       <created>1680479092124</created>
@@ -182,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680484029564</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- fix publishing problems">
+      <created>1680485752171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680485752171</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +255,7 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="- exclude stupid sonarlint files" />
     <MESSAGE value="test commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit!" />
+    <MESSAGE value="- fix publishing problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="- fix publishing problems" />
   </component>
 </project>
